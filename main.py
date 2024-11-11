@@ -10,9 +10,9 @@ def temperature_calculator(is_centigrads: bool, graus: number):
 def termometer(is_centigrads2: bool):
     global escala, medio, temperature
     if is_centigrads2:
-        escala = 273
+        escala = 100
     else:
-        escala = 457
+        escala = 212
     medio = scene.screen_width() / 2
     if mySprite.x != medio:
         temperature = (mySprite.x - medio) / (medio / escala)

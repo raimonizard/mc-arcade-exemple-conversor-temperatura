@@ -11,9 +11,9 @@ function temperature_calculator (is_centigrads: boolean, graus: number) {
 }
 function termometer (is_centigrads2: boolean) {
     if (is_centigrads2) {
-        escala = 273
+        escala = 80
     } else {
-        escala = 457
+        escala = 176
     }
     medio = scene.screenWidth() / 2
     if (mySprite.x != medio) {
